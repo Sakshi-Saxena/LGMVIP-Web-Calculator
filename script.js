@@ -6,11 +6,6 @@ for(items of btn)
 {
     items.addEventListener('click',(e)=>{
         btntext=e.target.innerText;
-
-        if(btntext=='÷')
-        {
-            btntext='/';
-        }
         screen.value+=btntext;
     });
 }
